@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovyjj-формир-док-распр-e",
+  "editForm": "i-i-s-itogovyjj-формир-док-распр-e",
+  "external": false,
+  "caption": "Формирование документа распределения",
+  "name": "IISItogovyjjФормирДокРаспрL",
+  "className": "ФормирДокРаспрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovyjj-формир-док-распр",
+      "modelProjection": "ФормирДокРаспрL"
+    }
+  ]
+}

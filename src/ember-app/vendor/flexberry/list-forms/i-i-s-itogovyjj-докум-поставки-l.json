@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovyjj-докум-поставки-e",
+  "editForm": "i-i-s-itogovyjj-докум-поставки-e",
+  "external": false,
+  "caption": "Документ поставки",
+  "name": "IISItogovyjjДокумПоставкиL",
+  "className": "ДокумПоставкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovyjj-докум-поставки",
+      "modelProjection": "ДокумПоставкиL"
+    }
+  ]
+}

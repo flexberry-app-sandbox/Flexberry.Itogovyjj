@@ -1,0 +1,1 @@
+docker-compose -p itogovyjj-java up -d

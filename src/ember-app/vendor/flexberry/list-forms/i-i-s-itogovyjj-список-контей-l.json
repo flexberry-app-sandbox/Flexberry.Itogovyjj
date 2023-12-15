@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovyjj-список-контей-e",
+  "editForm": "i-i-s-itogovyjj-список-контей-e",
+  "external": false,
+  "caption": "Список контейнеров",
+  "name": "IISItogovyjjСписокКонтейL",
+  "className": "СписокКонтейL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovyjj-список-контей",
+      "modelProjection": "СписокКонтейL"
+    }
+  ]
+}

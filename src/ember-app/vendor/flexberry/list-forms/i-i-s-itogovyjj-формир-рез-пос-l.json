@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovyjj-формир-рез-пос-e",
+  "editForm": "i-i-s-itogovyjj-формир-рез-пос-e",
+  "external": false,
+  "caption": "Формирование результата поставки",
+  "name": "IISItogovyjjФормирРезПосL",
+  "className": "ФормирРезПосL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovyjj-формир-рез-пос",
+      "modelProjection": "ФормирРезПосL"
+    }
+  ]
+}

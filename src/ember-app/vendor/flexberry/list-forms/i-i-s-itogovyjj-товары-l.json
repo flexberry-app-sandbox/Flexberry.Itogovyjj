@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovyjj-товары-e",
+  "editForm": "i-i-s-itogovyjj-товары-e",
+  "external": false,
+  "caption": "Товары",
+  "name": "IISItogovyjjТоварыL",
+  "className": "ТоварыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovyjj-товары",
+      "modelProjection": "ТоварыL"
+    }
+  ]
+}

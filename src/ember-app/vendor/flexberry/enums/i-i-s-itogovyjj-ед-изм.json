@@ -1,0 +1,10 @@
+﻿{
+  "nameSpace": "IIS.Itogovyjj",
+  "className": "ЕдИзм",
+  "enumObjects": {
+    "Шт": "Шт",
+    "Тонн": "Тонн",
+    "Кг": "Кг",
+    "Л": "Л"
+  }
+}

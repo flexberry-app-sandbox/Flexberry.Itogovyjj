@@ -1,0 +1,95 @@
+﻿{
+  "name": "IISItogovyjjИнфОЗаказе",
+  "modelName": "i-i-s-itogovyjj-инф-о-заказе",
+  "className": "ИнфОЗаказе",
+  "nameSpace": "IIS.Itogovyjj",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "товары",
+      "relatedTo": "i-i-s-itogovyjj-товары",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "докумПоставки",
+      "relatedTo": "i-i-s-itogovyjj-докум-поставки",
+      "inverse": "инфОЗаказе"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ИнфОЗаказеE",
+      "modelName": "i-i-s-itogovyjj-инф-о-заказе",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "НаимТовара",
+          "lookupValueField": "наимТовара",
+          "relationName": "Товары",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наимТовара",
+              "caption": "Наименование товара",
+              "hidden": true,
+              "index": 1
+            },
+            {
+              "name": "единицыИзмер",
+              "caption": "Единицы измерения",
+              "hidden": false,
+              "index": 3
+            },
+            {
+              "name": "масса",
+              "caption": "Масса",
+              "hidden": false,
+              "index": 4
+            },
+            {
+              "name": "цена",
+              "caption": "Цена",
+              "hidden": false,
+              "index": 5
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Наименование товара",
+          "name": "товары",
+          "relatedTo": "i-i-s-itogovyjj-товары",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
